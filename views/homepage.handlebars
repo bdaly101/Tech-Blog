@@ -1,0 +1,14 @@
+<section class="">
+    <h2>Homepage</h2>
+    {{#if logged_in}}
+    <p>Logged in as: {{user.username}}</p>
+    {{else}}
+    <a href="/login">Login/SignUp</a>
+    {{/if}}
+  <section class="blog-list">
+    <!-- For each painting that belongs to this gallery, the painting-details partial is used to render each painting's data -->
+    {{#each blogs as |blog|}}
+    {{> blog-details}}
+    {{/each}}
+  </section>
+</section>

@@ -1,0 +1,10 @@
+<div>
+    <div class="post-list">
+        <h2>{{user.username}}'s Dashboard</h2>
+        {{#each blogs as |blog|}}
+        
+        {{> blog-details}}
+        {{/each}}
+    </div>
+    <a href="/newPost">New Post</a>
+</div>

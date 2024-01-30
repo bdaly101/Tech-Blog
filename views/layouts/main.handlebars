@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM</title>
+    <link href="/css/styles.css" rel="stylesheet">
+</head>
+
+<body >
+    
+    <header class="blog-header">
+        <nav>
+            <ul class="flex justify-between items-baseline">
+                <li><a href="/">Home</a></li>
+                <li class="ml-5"><a href="/dashboard">Dashboard</a></li>
+                {{#if logged_in}}
+                <li class="ml-5"><a class="CTA-btn" id="logout">Logout</button></li>
+                {{else}}
+                <li class="ml-5"><a href="/login">Login/SignUp</a></li>
+                {{/if}}
+            </ul>
+        </nav>
+        <h1 class="page-title">The Tech Blog</h1>
+    </header>
+
+    <main class="main-container">
+    <section class="main-content">
+        {{{body}}}
+    </section>
+</main>
+
+    <script src="/js/logout.js"></script>
+
+</body>
+
+</html>

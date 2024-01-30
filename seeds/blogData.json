@@ -1,0 +1,34 @@
+[
+    {
+      "blog_header": "First Blog Post",
+      "blog_body": "This is the body of the first blog post.",
+      "date_created": "2021-01-01T00:00:00.000Z",
+      "user_id": 1
+    },
+    {
+      "blog_header": "Second Blog Post",
+      "blog_body": "This is the body of the second blog post.",
+      "date_created": "2021-02-01T00:00:00.000Z",
+      "user_id": 3
+    },
+    {
+      "blog_header": "Third Blog Post",
+      "blog_body": "This is the body of the third blog post, with more interesting content.",
+      "date_created": "2021-03-01T00:00:00.000Z",
+      "user_id": 2
+    },
+    {
+      "blog_header": "Fourth Blog Post",
+      "blog_body": "Exploring the fourth blog post topics and ideas.",
+      "date_created": "2021-04-01T00:00:00.000Z",
+      "user_id": 3
+    },
+    {
+      "blog_header": "Fifth Blog Post",
+      "blog_body": "The fifth blog post brings new perspectives.",
+      "date_created": "2021-05-01T00:00:00.000Z",
+      "user_id": 1
+    }
+
+  ]
+  
